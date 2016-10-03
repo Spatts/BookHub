@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510DCEA21D5B896D00D43540 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510DCEA11D5B896D00D43540 /* Book.swift */; };
+		510DCEA41D5B897A00D43540 /* BookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510DCEA31D5B897A00D43540 /* BookController.swift */; };
+		510DCEA61D5B898C00D43540 /* CloudKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510DCEA51D5B898C00D43540 /* CloudKitController.swift */; };
 		BC7BD26A1D5AEDFB00A0F172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7BD2691D5AEDFB00A0F172 /* AppDelegate.swift */; };
 		BC7BD26F1D5AEDFB00A0F172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7BD26D1D5AEDFB00A0F172 /* Main.storyboard */; };
 		BC7BD2711D5AEDFB00A0F172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7BD2701D5AEDFB00A0F172 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		510DCEA11D5B896D00D43540 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		510DCEA31D5B897A00D43540 /* BookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookController.swift; sourceTree = "<group>"; };
+		510DCEA51D5B898C00D43540 /* CloudKitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitController.swift; sourceTree = "<group>"; };
 		BC7BD2661D5AEDFA00A0F172 /* BookHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7BD2691D5AEDFB00A0F172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC7BD26E1D5AEDFB00A0F172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,9 +71,11 @@
 		BC7BD2681D5AEDFB00A0F172 /* BookHub */ = {
 			isa = PBXGroup;
 			children = (
-				BC7BD27D1D5AF08600A0F172 /* Model */,
+				BC7BD2691D5AEDFB00A0F172 /* AppDelegate.swift */,
+				BC7BD26D1D5AEDFB00A0F172 /* Main.storyboard */,
 				BC7BD27C1D5AF08000A0F172 /* View */,
 				BC7BD27B1D5AF07A00A0F172 /* Controller */,
+				BC7BD27D1D5AF08600A0F172 /* Model */,
 			);
 			path = BookHub;
 			sourceTree = "<group>";
@@ -75,6 +83,8 @@
 		BC7BD27B1D5AF07A00A0F172 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				510DCEA31D5B897A00D43540 /* BookController.swift */,
+				510DCEA51D5B898C00D43540 /* CloudKitController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -95,6 +105,7 @@
 		BC7BD27D1D5AF08600A0F172 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				510DCEA11D5B896D00D43540 /* Book.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -102,8 +113,6 @@
 		BC7BD27E1D5AF0BB00A0F172 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				BC7BD2691D5AEDFB00A0F172 /* AppDelegate.swift */,
-				BC7BD26D1D5AEDFB00A0F172 /* Main.storyboard */,
 				BC7BD2701D5AEDFB00A0F172 /* Assets.xcassets */,
 				BC7BD2721D5AEDFB00A0F172 /* LaunchScreen.storyboard */,
 				BC7BD2751D5AEDFB00A0F172 /* Info.plist */,
@@ -183,6 +192,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510DCEA41D5B897A00D43540 /* BookController.swift in Sources */,
+				510DCEA21D5B896D00D43540 /* Book.swift in Sources */,
+				510DCEA61D5B898C00D43540 /* CloudKitController.swift in Sources */,
 				BC7BD2821D5AF1ED00A0F172 /* BookCollectionViewCell.swift in Sources */,
 				BC7BD26A1D5AEDFB00A0F172 /* AppDelegate.swift in Sources */,
 				BC7BD2801D5AF0F700A0F172 /* BookListViewController.swift in Sources */,
